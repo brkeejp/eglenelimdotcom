@@ -68,54 +68,14 @@ main {
   min-height: 100vh;
 }
 
-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0.64rem;
-}
+
 
 
 /* VISUALS */
 header {
-  backdrop-filter: contrast(95%);
+  backdrop-filter: brightness(50%) contrast(95%) blur(2px);
+  background: #4448;
 }
-footer {
-  backdrop-filter: contrast(95%);
-}
-
-
-/* +++ SPERATOR +++ */
-footer>div {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 0.64rem;
-}
-footer>div:first-child {
-  justify-content: space-around;
-}
-footer>div:first-child>div {
-  display: flex;
-  flex-direction: column;
-}
-footer>div:first-child>div>p {
-  font-size: 1.2rem;
-  font-weight: bold;
-  border-bottom: solid 1px;
-}
-footer>div>a {
-  font-size: 0.72rem;
-  padding: 0.24rem; 
-  display: flex;
-  flex-direction: row;
-}
-
-footer>div>span.VSperator {
-  border-left: 1px solid;
-  border-right: 1px solid;
-}
-/* --- SPERATOR --- */
 
 body {
   background-size: 300% 300%;
